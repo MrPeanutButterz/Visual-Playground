@@ -23,3 +23,8 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+nav {
+    position: absolute;
+    right: 0;
+}
