@@ -10,5 +10,40 @@
     width: 200px;
     height: 200px;
 
-    border: 1px solid whitesmoke;
+}
+
+.squares-wrapper > div:nth-child(1) {
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+}
+
+.squares-wrapper > div:nth-child(2) {
+    border-top: 1px solid whitesmoke;
+}
+
+.squares-wrapper > div:nth-child(3) {
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+
+.squares-wrapper > div:nth-child(4) {
+    border-left: 1px solid whitesmoke;
+}
+
+.squares-wrapper > div:nth-child(6) {
+    border-right: 1px solid whitesmoke;
+}
+
+.squares-wrapper > div:nth-child(7) {
+    border-left: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.squares-wrapper > div:nth-child(8) {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.squares-wrapper > div:nth-child(9) {
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }

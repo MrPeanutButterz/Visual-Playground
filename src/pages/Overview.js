@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 export default function Overview() {
 
   return <>
-    <section>
+    <section className="menu">
       <NavLink to="/sunset-horizon">
         <div className="link">
           <h2>1</h2>

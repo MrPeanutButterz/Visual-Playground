@@ -8,14 +8,10 @@ export default function Squares() {
 
     gsap.to(".square", {
       scale: 0.8,
+      backgroundColor: "whitesmoke",
       repeat: 2,
       duration: 2,
-      stagger: {
-        each: .1,
-        from: "top",
-        grid: "auto",
-        ease: "none",
-      }
+      delay: 3,
     })
   })
 

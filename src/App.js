@@ -12,7 +12,7 @@ export default function App() {
   return <>
     <nav>
       <NavLink to="/">
-        <div className="link">
+        <div className="nav-link">
           <h4>Menu</h4>
         </div>
       </NavLink>
