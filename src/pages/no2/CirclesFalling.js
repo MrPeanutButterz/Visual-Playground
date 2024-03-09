@@ -16,14 +16,6 @@ export default function CirclesFalling() {
       }
     })
 
-    gsap.to(".circles-wrapper > h1", {
-      y: -150,
-      duration: 2.2,
-      delay: 1.4,
-      opacity: 1,
-      ease: "power1.out",
-    })
-
   })
 
   return <>
@@ -51,8 +43,6 @@ export default function CirclesFalling() {
           <div className="circle"></div>
           <div className="circle"></div>
           <div className="circle"></div>
-
-          <h1>Circles Falling</h1>
 
         </div>
       </div>

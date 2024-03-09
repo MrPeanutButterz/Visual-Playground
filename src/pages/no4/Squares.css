@@ -1,0 +1,14 @@
+.squares-wrapper {
+    width: 600px;
+    height: 600px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+
+    border: 1px solid whitesmoke;
+}

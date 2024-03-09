@@ -1,0 +1,55 @@
+.circles-planets-wrapper {
+    height: 500px;
+    width: 500px;
+
+    position: relative;
+}
+
+.outer-circle {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+
+    border: 1px solid whitesmoke;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.outer-circle > div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #151515;
+    border: 1px solid whitesmoke;
+
+    position: absolute;
+    right: -25px;
+    top: 225px;
+}
+
+
+.inner-circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+    border: 1px solid whitesmoke;
+
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.inner-circle > div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #151515;
+    border: 1px solid whitesmoke;
+
+    position: absolute;
+    left: -25px;
+    top: 125px;
+}

@@ -26,5 +26,6 @@ section {
 
 nav {
     position: absolute;
-    right: 0;
+    left: 0;
+    margin-left: 300px;
 }

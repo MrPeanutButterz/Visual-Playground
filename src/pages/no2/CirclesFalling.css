@@ -7,18 +7,6 @@
     position: relative;
 }
 
-.circles-wrapper > h1 {
-    font-family: "Kalam", cursive;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 44px;
-
-    position: absolute;
-    bottom: -70px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-}
 
 .circle {
     width: 500px;
