@@ -28,6 +28,12 @@ export default function Overview() {
           <p>Squares</p>
         </div>
       </NavLink>
+      <NavLink to="/dna">
+        <div className="link">
+          <h2>5</h2>
+          <p>Dna</p>
+        </div>
+      </NavLink>
     </section>
   </>
 };

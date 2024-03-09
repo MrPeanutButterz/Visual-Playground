@@ -7,12 +7,16 @@ export default function Squares() {
   useGSAP(() => {
 
     gsap.to(".square", {
-      scale: 0.8,
-      backgroundColor: "whitesmoke",
-      repeat: 2,
-      duration: 2,
-      delay: 3,
+      scale: .85,
+      rotate: 45,
+      yoyo: false,
+      border: "1px solid whitesmoke",
+      ease: "none",
+      repeat: 0,
+      duration: .5,
+      delay: 2,
     })
+
   })
 
   return <>

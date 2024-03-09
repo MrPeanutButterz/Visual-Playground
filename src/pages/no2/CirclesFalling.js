@@ -10,6 +10,7 @@ export default function CirclesFalling() {
       height: 0,
       duration: 1.5,
       ease: "power2.in",
+      delay: .5,
       stagger: {
         amount: 2,
         each: 1,
