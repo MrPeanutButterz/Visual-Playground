@@ -1,8 +1,11 @@
 import "./Barcode.css"
 import {useGSAP} from "@gsap/react";
 import {gsap} from "gsap";
+import { TextPlugin } from "gsap/TextPlugin";
 
 export default function Barcode() {
+
+  gsap.registerPlugin(TextPlugin)
 
   useGSAP(() => {
 
@@ -21,6 +24,19 @@ export default function Barcode() {
         from: "random",
       }
     })
+
+    gsap.fromTo(".bar-code", {
+      text: "97619253457322",
+    }, {
+      text: "13490857654378",
+      duration: 5,
+      ease: "none",
+      stagger: {
+        each: .1,
+        from: "random",
+      }
+    })
+
   })
 
   return <>
@@ -60,6 +76,7 @@ export default function Barcode() {
           <div className="bar"></div>
           <div className="bar"></div>
         </div>
+        <h3 className="bar-code"></h3>
       </div>
     </section>
   </>
