@@ -8,6 +8,7 @@ import CirclesFalling from "./pages/no2/CirclesFalling";
 import CirclesPlanetary from "./pages/no3/CirclesPlanetary";
 import Squares from "./pages/no4/Squares";
 import Dna from "./pages/no5/Dna";
+import Barcode from "./pages/no6/Barcode";
 
 export default function App() {
   return <>
@@ -25,6 +26,7 @@ export default function App() {
       <Route exact path="/circles-planetary" element={<CirclesPlanetary/>}></Route>
       <Route exact path="/squares" element={<Squares/>}></Route>
       <Route exact path="/dna" element={<Dna/>}></Route>
+      <Route exact path="/barcode" element={<Barcode/>}></Route>
     </Routes>
   </>
 }

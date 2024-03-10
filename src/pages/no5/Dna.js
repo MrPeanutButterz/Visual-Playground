@@ -8,11 +8,10 @@ export default function Dna() {
 
     gsap.fromTo(".l", {
       x: 0,
-      backgroundColor: "#2f2f2f",
+      backgroundColor: "#F5F5F5FF",
     }, {
       x: 15,
-      backgroundColor: "#F5F5F5FF",
-
+      backgroundColor: "#2f2f2f",
       ease: "sine.inOut",
       duration: 1.9,
       repeat: -1,
@@ -29,7 +28,6 @@ export default function Dna() {
     }, {
       width: 0,
       backgroundColor: "#151515",
-
       ease: "sine.inOut",
       duration: 1.9,
       repeat: -1,
@@ -46,7 +44,6 @@ export default function Dna() {
     }, {
       x: -15,
       backgroundColor: "#F5F5F5FF",
-
       ease: "sine.inOut",
       duration: 1.9,
       repeat: -1,
@@ -62,6 +59,18 @@ export default function Dna() {
     <section>
       <div className="contentMC">
         <div className="dna-wrapper">
+
+          <div className="string-wrapper">
+            <div className="string-end l"></div>
+            <div className="string"></div>
+            <div className="string-end r"></div>
+          </div>
+
+          <div className="string-wrapper">
+            <div className="string-end l"></div>
+            <div className="string"></div>
+            <div className="string-end r"></div>
+          </div>
 
           <div className="string-wrapper">
             <div className="string-end l"></div>

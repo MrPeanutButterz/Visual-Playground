@@ -1,0 +1,11 @@
+.barcode-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.bar {
+    width: 4px;
+    height: 100px;
+    background-color: whitesmoke;
+}
